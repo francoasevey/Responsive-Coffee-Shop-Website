@@ -229,7 +229,7 @@ section{
     border: var(--border);
 }
 .menu .box-container .box img{
-    height: 10rem;
+    height: 20rem;
 }
 .menu .box-container .box h3{
     color: #fff;
@@ -238,9 +238,20 @@ section{
 }
 .menu .box-container .box .price{
     color: #fff;
-    font-size: 2rem;
-    padding: 1rem 0;
+    font-size: 2.5rem;
+    padding: .5rem 0;
 }
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+.menu .box-container .box:hover{
+    background: #fff;
+}
+.menu .box-container .box:hover > *{
+    color: var(--black);
+}
+
 
 @media (max-width:991px){
     html{
