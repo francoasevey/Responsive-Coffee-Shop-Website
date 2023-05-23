@@ -418,8 +418,26 @@ section{
     font-size: 1.6rem;
     line-height: 1.8;
     color: #ccc;
-    padding: 1rem;
+    padding: 1rem 0;
 }
+.footer{
+    background: var(--black);
+    text-align: center;
+}
+.footer .share{
+    padding: 1rem 0;
+}
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    margin: .3rem;
+    border-radius: 50%;
+}
+
 
 @media (max-width:991px){
     html{
