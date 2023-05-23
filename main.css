@@ -440,6 +440,14 @@ section{
 .footer .share a:hover{
     background-color: var(--main-color);
 }
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
 
 @media (max-width:991px){
     html{
