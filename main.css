@@ -456,7 +456,15 @@ section{
 .footer .links a:hover{
     background: var(--main-color);
 }
-
+.footer .credit{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+.footer .credit span{
+    color: var(--main-color);
+}
 @media (max-width:991px){
     html{
         font-size: 55%;
